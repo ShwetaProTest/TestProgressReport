@@ -1,0 +1,34 @@
+INFO:root:Execution of the main function began
+
+INFO:root:The Build Name of Current Execution is : P1904A-P1904C
+INFO:root:######### Build Calculation Started #########
+INFO:root:The Total Test Case Count for build P1904A-P1904C is : 86
+INFO:root:The Project Estimated Date is from: 2023-06-30 to 2023-07-31
+
+INFO:root:Filter all of the source's actual build names and replace them with dataframe column names
+INFO:root:['The Total Build Columns are : Date'
+ 'The Total Build Columns are : Build PVT 1 P1904C']
+INFO:root:######## Build Calculations are completed ##########
+
+INFO:root:Plot Display ---------
+INFO:root:Set up the plot to show the Build Count value for each day.
+INFO:root:The milestone configuration for project estimation
+INFO:root:Configuration to emphasize the weekend
+INFO:root:configuration of the plot's x- and y-axes, labels, titles, colors, and width
+
+INFO:root:The Output Image File Name is: c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\scripts\../Reports\P1904A-P1904C-31072023_140648\BurnDownReport/resultsTC_WHEELBASE_P1904A-P1904C.png
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.
+INFO:root:The Output PDF File Name is: c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\scripts\../Reports\P1904A-P1904C-31072023_140648\GeneratepdfReport/P1904A-P1904C.pdf
+INFO:root:The Result Data & Image File Name is: c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\scripts\../Reports\P1904A-P1904C-31072023_140648\BurnDownReport/resultsTC_WHEELBASE_P1904A-P1904C.xlsx
+INFO:root:********** xml to excel File Conversion started ********** 
+INFO:root:The Input File Locations is : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\Input\WHEELBASE.xml
+INFO:root:The Excel Output file generated in : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\scripts\../Reports\P1904A-P1904C-31072023_140648\TestSpecificationReport/TestSpecification_Testlink.xlsx
+INFO:root:********** xml to excel File Conversion Completed **********
+
+INFO:root:The Input location to fetch resultsTC file is : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\Input
+INFO:root:The Output file names are : Build_PVT_1_P1904C.xlsx
+INFO:root:The filtered output files of each build is created in : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\Input
+
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.

@@ -1,0 +1,12 @@
+INFO:root:********** xml to excel File Conversion started ********** 
+INFO:root:The Input File Locations is : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\Input\WHEELBASE.xml
+INFO:root:The Excel Output file generated in : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\scripts\../Reports\P1904A-P1904C-31072023_140424\TestSpecificationReport/TestSpecification_Testlink.xlsx
+INFO:root:********** xml to excel File Conversion Completed **********
+
+INFO:root:The Input location to fetch resultsTC file is : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\Input
+INFO:root:The Output file names are : Build_PVT_1_P1904C.xlsx
+INFO:root:The filtered output files of each build is created in : c:\Users\Shweta\PycharmProjects\TestProgressReport_Python\Input
+
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.
+WARNING:img2pdf:Image contains an alpha channel. Computing a separate soft mask (/SMask) image to store transparency in PDF.

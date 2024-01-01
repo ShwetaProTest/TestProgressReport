@@ -1,0 +1,43 @@
+name: Execute main Script
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run_scripts:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.10.11
+        
+    - name: Upgrade pip
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Install dependencies
+      run: |
+        pip install -r scripts/requirements.txt
+
+    - name: Execute main script
+      run: |
+        python scripts/main.py
+
+    - name: Execute burndown script
+      run: |
+        python scripts/BurnDownChart.py
+
+    - name: Execute supporting script
+      run: |
+        python scripts/Supporting_scripts.py
+
+    - name: Execute Reporting script
+      run: |
+        python scripts/TestProgressReport_TestCases.py
